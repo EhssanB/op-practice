@@ -1,0 +1,25 @@
+.auto, .initial, .zero {
+    display: flex
+}
+
+.auto div {
+    flex: auto; /* flex: 1 1 auto */
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+}
+
+.initial div {
+    /* element does not grow beyond stated width but does shrink */
+    flex: initial; /* flex: 0 1 auto*/ 
+    border: 1px red solid;
+    width: 150px;
+    height: 150px;
+}
+
+.zero div {
+    flex: 1;
+    border: 1px red solid;
+    width: 150px;
+    height: 150px;
+}
