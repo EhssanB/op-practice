@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    padding: 10px;
+
+    flex: 1 1 0;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: inherit;
+}
